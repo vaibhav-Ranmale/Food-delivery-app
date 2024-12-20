@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .contact{
+           display: flex;
+           justify-content: center;
+           padding: 40px;
+           background-color: skyblue;
+        }
+        header{
+          background-color: blue;
+        }
+        .contact .cont{
+            border: 1px solid orange;
+            border-radius: 30px;
+            padding: 40px 80px;
+        }
+        .box{
+            margin: 20px 0px;
+           
+        }
+        .box input{
+            border-radius: 50px;
+            padding: 5px 82px 5px 12px;
+            margin-top: 10px;
+        }
+        .boxs{
+            display: flex;
+            justify-content: center;
+        }
+        .boxs input{
+            margin-top: 10px;
+            border-radius: 50px;
+            padding: 5px 20px;
+            background-color: orange;
+            color: #fff;
+            font-weight: bold;
+            border:1px solid orange;
+        
+        }
+        .boxs input:hover{
+            background-color: blue;
+        }
+        header .the{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  background-color:whitesmoke;
+}
+.the
+  {
+   
+    font-family: sans-serif;
+    color: blueviolet;
+    cursor: pointer;
+ }
+        footer .india{
+  background-color: rgb(4, 4, 29);
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+padding: 40px 0px;
+}
+footer .india ul li{
+  color: #fff;
+  margin-left: 20px;
+  list-style: none;
+  line-height:1.5;
+}
+footer .india h3{
+  color: #fff;
+  margin: 0px 0px 10px 0px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2  class="the">The lost Kitchen</h2>
+        <hr>
+    </header>
+        
+    <div class="contact">
+     <form class="cont" action="">
+      <div class="box">
+        <label class="name" >NAME</label><br>
+        <input type="text" name="firstname" placeholder="first name">
+      </div>
+      <div class="box">
+        <label class="name" >NAME</label><br>
+        <input type="text" name="lastname" placeholder="last name">
+      </div>
+      <div class="box">
+        <label class="name" >EMAIL</label><br>
+        <input type="email" name="firstname" placeholder="first name">
+      </div>
+      <div class="box">
+        <label class="name" >PHONE</label><br>
+        <input type="text" name="phone no" placeholder="phone number">
+      </div>
+      <div class="boxs">
+       <input type="button" value="submit">
+      </div>
+      
+     </form>
+    </div>
+      <footer>
+        <div class="india">
+            <ul>
+                <h3>CATEGORIES</h3>
+                <li>main</li>
+                <li>pizzas</li>
+                <li>salad</li>
+                <li>Desserds</li>
+                <li>Bowl</li>
+            </ul>
+           
+            <ul>
+                <h3>CUSINES</h3>
+                <li>India</li>
+                <li>Chinese</li>
+                <li>Italic</li>
+                <li>American</li>
+            </ul>
+            <ul>
+                <h3>CITIES</h3>
+                <li>Mumabi</li>
+                <li>Pune</li>
+                <li>Nanded</li>
+                <li>Thane</li>
+            </ul>
+        </div>
+    </footer> 
+   
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header .the{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  background-color:rgb(255, 102, 0);
+}
+.the
+  {
+    background-color:yellow;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+ }
+ .banner{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  }
+ .banner .lost{
+  display: flex;
+  padding-top: 20px;
+  gap: 30px;
+ }
+ .banner .lost li:hover{
+  background-color: rgb(7, 7, 44);
+  color: #fff;
+ }
+ 
+ .banner  .lost li{
+  list-style: none;
+  background-color: aqua;
+  padding: 10px 20px;
+  border-radius: 50px;
+ }
+ .banner .lost a{
+  text-decoration: none;
+}
+.main{
+  background-color: orange;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0px;
+}
+.bowl h1{
+  padding: 20px 0px 20px 50px;
+}
+.bowl .asin{
+  display: flex;
+  text-align: center;
+}
+
+.bowl .asin h3{
+  text-align: start;
+  margin-left: 50px;
+  font-style: normal;
+  color: rgb(113, 111, 111);
+  padding-bottom: 20px;
+}
+.bowl .asin .veg{
+  display: block;
+  
+}
+.bowl .asin .veg img{
+  width: 84%;
+}
+.bowl .asin .add{
+  display: flex;
+  justify-content: space-between;
+}
+img
+{
+   transition: 1s;
+}
+img:hover{
+   transform: scale(0.9);
+   transition: 1s;
+}
+.bowl .asin .add button{
+  padding: 6px 20px;
+  margin-right: 50px;
+ border-radius: 50px;
+ margin-top: 10px;
+ background-color: orange;
+ color: #fff; 
+ border:orange;
+ cursor: pointer;
+}
+.bowl .asin .add button:hover{
+  background-color: blue;
+  color:whitesmoke;
+  transition: 0.4s;
+}
+footer .india{
+  background-color: rgb(4, 4, 29);
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+padding: 40px 0px;
+}
+footer .india ul li{
+  color: #fff;
+  margin-left: 20px;
+  list-style: none;
+  line-height:1.5;
+}
+footer .india h3{
+  color: #fff;
+  margin: 0px 0px 10px 0px;
+}
